@@ -9,8 +9,8 @@ QUIT_CMD = 'QUIT\r\n'
 HELLO_CMD = 'HELO gmail.com\r\n'
 STARTTLS_CMD = 'STARTTLS\r\n'
 AUTHORIZATION_CMD = "AUTH LOGIN\r\n"
-MAIL_FROM = 'MAIL FROM: <Sender@gmail.com> \r\n'
-RCPT_TO = 'RCPT TO: <Receiver@gmail.com> \r\n'
+MAIL_FROM = 'MAIL FROM: <Sender@gmail.com> \r\n'  # fill this part with sender's gmail address.
+RCPT_TO = 'RCPT TO: <Receiver@gmail.com> \r\n'    # fill this part with receiver's gmail address.
 DATA_CMD = 'DATA\r\n'
 # ------------------------------------------------------------------------
 
